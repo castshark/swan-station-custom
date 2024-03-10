@@ -1,6 +1,6 @@
 {
   "name": "swan-station-customer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "You have to call the function button within a designated time or a function will be called.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:castshark/swan-station-custom.git"
+    "url": "https://github.com/castshark/swan-station-custom.git"
   },
   "keywords": [
     "timeout",
@@ -17,9 +17,14 @@
     "lost",
     "swan-station"
   ],
-  "author": "Remi Nyborg",
+  "author": "castshark",
   "license": "MIT",
-  "homepage": "git@github.com:castshark/swan-station-custom.git",
+  "homepage": "https://github.com/castshark/swan-station-custom.git",
+  "dependencies": {
+    "bluebird": "^3.3.4",
+    "gradle-to-js": "^0.2.6",
+    "js-yaml": "^3.5.5"
+  },
   "devDependencies": {
     "standard": "^3.0.0",
     "tape": "^4.2.0"
